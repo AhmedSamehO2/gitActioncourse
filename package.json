@@ -1,0 +1,11 @@
+{
+    "name": "simple-action-example",
+    "version": "1.0.0",
+    "description": "An example GitHub Action",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "bash src/test"
+    },
+  
+    "dependencies": {}
+}
