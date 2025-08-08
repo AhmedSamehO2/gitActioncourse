@@ -1,0 +1,15 @@
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+jobs:
+ deploy:
+    runs-on: ubuntu-latest 
+
+    steps:
+
+      - name: Deploy application
+        run: echo "Deploying the application"
+
+     
